@@ -9,13 +9,12 @@ This project is an inventory management system developed using customtkinter for
 - MySQL integration for efficient data storage and retrieval.
 
 ## Screenshots
-<br>
----
 
 <details>
   <summary>Screenshots</summary>
   <br>
     <p align="left">
+    <img src="screenshots/0.png"></image>
     <img src="screenshots/1.png"></image>
     <img src="screenshots/2.png"></image>
     <img src="screenshots/3.png"></image>
@@ -70,7 +69,7 @@ This project is an inventory management system developed using customtkinter for
 
 - This project is a basic implementation and can be extended with additional features and optimizations.
 
--A user can create an additional account to buy from inventory. But the default username for admin is ADMIN and password is ADMIN 
+- A user can create an additional account to buy from inventory. But the default username for admin is ADMIN and password is ADMIN 
 
 - The graph only appears in both user and admin dashboard when user purchases anything or else the graph wont be displayed .
 
