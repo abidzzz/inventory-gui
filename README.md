@@ -18,9 +18,9 @@ This project is an inventory management system developed using customtkinter for
     <img src="screenshots/1.png"></image>
     <img src="screenshots/2.png"></image>
     <img src="screenshots/3.png"></image>
-    <img src="screenshots/4.png"></image>
-    <img src="screenshots/5.png"></image>
     <img src="screenshots/6.png"></image>
+    <img src="screenshots/5.png"></image>
+    <img src="screenshots/4.png"></image>
     <img src="screenshots/7.png"></image>
 
     </p>
