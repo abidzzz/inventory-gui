@@ -5,7 +5,7 @@ from menu import Menu
 class Main:
     """Represents the main application window for the inventory management system."""
     def __init__(self) :
-        self.con = mycon.connect(host='localhost', user='root', passwd='bruh')
+        self.con = mycon.connect(host='localhost', user='root', passwd='bruh')# replace with you repective user and password of mysql
 
         if self.con.is_connected:
             print('* Connected to MySQL server')

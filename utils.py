@@ -30,20 +30,23 @@ def add_graphs(cur, frame):
 "#8ED1FC",  # Sky Blue
 ]
 
-    order_status = ["Paid","Pending"]
-    cur.execute("SELECT payment_status, COUNT(*) as count FROM orders GROUP BY payment_status;")
-    payments = cur.fetchall()
-    order_count = [x[1] for x in payments]
+    try:
+        order_status = ["Paid","Pending"]
+        cur.execute("SELECT payment_status, COUNT(*) as count FROM orders GROUP BY payment_status;")
+        payments = cur.fetchall()
+        order_count = [x[1] for x in payments]
 
-    figure = plt.Figure(figsize=(3, 3), dpi=100)
-    ax = figure.add_subplot(1, 1, 1)
+        figure = plt.Figure(figsize=(3, 3), dpi=100)
+        ax = figure.add_subplot(1, 1, 1)
 
-    ax.pie(order_count, labels=order_status, autopct="%1.1f%%", colors=colors, startangle=90)
-    ax.set_title("Order Status Pie Chart")
+        ax.pie(order_count, labels=order_status, autopct="%1.1f%%", colors=colors, startangle=90)
+        ax.set_title("Order Status Pie Chart")
 
-    canvas = FigureCanvasTkAgg(figure, master=frame)
-    canvas.draw()
-    canvas.get_tk_widget().place(x=780,y=270)
+        canvas = FigureCanvasTkAgg(figure, master=frame)
+        canvas.draw()
+        canvas.get_tk_widget().place(x=780,y=270)
+    except:
+        pass
 
     # Bar Graph for Earnings per month
 
