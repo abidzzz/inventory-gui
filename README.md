@@ -9,12 +9,12 @@ This project is an inventory management system developed using customtkinter for
 - MySQL integration for efficient data storage and retrieval.
 
 ## Screenshots
-<img src="screenshots/0.png"></image> <img src="screenshots/2.png"></image>
+<img src="screenshots/0.png"></image> <img src="screenshots/1.png"></image>
 <details>
   <summary>View more</summary>
   <br>
     <p align="left">
-    <img src="screenshots/1.png"></image>
+    <img src="screenshots/01.png"></image>
     <img src="screenshots/3.png"></image>
     <img src="screenshots/6.png"></image>
     <img src="screenshots/5.png"></image>
